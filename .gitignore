@@ -1,8 +1,13 @@
+# Ignorar todo en la carpeta excepto los .xlsx que sí queremos
+/chatbot/data/*
+!/chatbot/data/*.xlsx
+
+# Otras reglas generales
+*.sqlite3
+*.csv
 *.pyc
 __pycache__/
 .env
 .vscode/
-data/
-*.xlsx
-*.csv
-*.sqlite3
+
+
